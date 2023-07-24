@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formulario de instituto UNTREF">
+    <meta name="author" content="Felipe Lescano">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Universidad Nacional de Tres de Febrero [Ingreso]</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">inicio</a></li>
+                    <li><a href="../html/index.html">sobre nosotros</a></li>
+                    <li><a href="../html/index.html">eleginos</a></li>
+                    <li><a href="../html/index.html">propuestas</a></li>
+                    <li><a href="../html/index.html">noticias</a></li>
+                    <li><a href="../html/index.html">contacto</a></li>
+                </ul>
+            </nav>
+
+            <a
+                class="icon-form" href="../html/index.html"
+                onmouseover="document.iconito.src='../images/atras-icono-hover.png'"
+                onmouseout="document.iconito.src='../images/atras-icono.png'">
+
+                <img src="../images/atras-icono.png"alt="icono del formulario" name="iconito"
+                class="icon-img">
+            </a>
+        </header>
+
+        <main class="main-content" id="main-articles">
+            <h1 class="form-h1">COMUNICATE CON NOSOTROS</h1>
+
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h3>Completa todos los campos</h3>
+                    <form action="https://formsubmit.co/felipe.lescano96@gmail.com" method="POST">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="name" required>
+                        </p>
+                        <p>
+                            <label class="">Apellido</label>
+                            <input type="text" name="surname" required>
+                        </p>
+                        <p>
+                            <label>Télefono</label>
+                            <input type="tel" name="phone">
+                        </p>
+                        <p>
+                            <label>Correo Electrónico</label>
+                            <input type="text" name="email" required>
+                        </p>
+                        <p class="block">
+                           <label>Asunto</label> 
+                            <textarea name="message" rows="3"></textarea required>
+                        </p>
+                        <p class="block">
+                            <button>
+                                Enviar
+                            </button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer class="footer" id="footer-cont">
+            <div class="cont-footer">
+                <h2 class="footer-h2">Redes sociales</h2>
+                <a href="https://facebook.com/"><img class="top-cont" src="../images/facebook.png"></a>
+                <span id="span-1">Facebook</span>
+                <a href="https://www.instagram.com/"><img class="mid-cont" src="../images/instagram.png"></a>
+                <span id="span-2">Instagram</span>
+                <a href="https://twitter.com/"><img class="bot-cont" src="../images/twitter.png"></a>
+                <span id="span-3">Twitter</span>
+            </div>
+            
+            <div class="cont-footer">
+                <h2 class="footer-h2">Instituto</h2>
+                <iframe class="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.8885815975664!2d-58.56544980912036!3d-34.6048966255809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb9f8ff113%3A0x22fd08da6711928d!2sUniversidad%20Nacional%20de%20Tres%20de%20Febrero%20-%20Sede%20Caseros%20I!5e0!3m2!1ses-419!2sar!4v1690079426308!5m2!1ses-419!2sar"
+                width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+
+            <div class="cont-footer">
+                <h2 class="footer-h2">Contacto</h2>
+                <p class="top-cont">Correo: untref@gmail.com</p>
+                <p class="mid-cont">Teléfono: 011 4759-0040</p>
+                <p class="bot-cont">WhatsApp: 011 4759-9840</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
